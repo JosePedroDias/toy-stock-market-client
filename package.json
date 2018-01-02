@@ -1,0 +1,21 @@
+{
+  "name": "toy-stock-market-client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "cd src && babel **/*.js -d ../dist",
+    "flow": "flow check"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.0",
+    "babel-plugin-transform-flow-strip-types": "^6.22.0",
+    "flow-bin": "^0.61.0",
+    "flow-typed": "^2.2.3"
+  },
+  "author": "",
+  "license": "ISC"
+}
