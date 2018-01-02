@@ -1,7 +1,10 @@
 # toy stock market client
 
-A common API for interacting with the HTTP interface of toy-stock-market.
+A common API for interacting with the HTTP interface of [toy-stock-market](https://github.com/JosePedroDias/toy-stock-market).
+
 Works on both a browser and node.js, given you provide it implementations of the fetch API, EventSource and EventEmitter.
+
+Used by [toy-stock-market-ui](https://github.com/JosePedroDias/toy-stock-market-ui) (browser) and [toy-stock-market-bot](https://github.com/JosePedroDias/toy-stock-market-bot) (node.js).
 
 ## API
 
